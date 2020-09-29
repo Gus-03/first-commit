@@ -4,16 +4,21 @@
 <div class="container">
     <div class="row align-items-center">
         <div class="col-2 p-6">
-            <img class="float-right" style="height: 50px;" src="https://i.pinimg.com/originals/0c/3b/3a/0c3b3adb1a7530892e55ef36d3be6cb8.png" alt="">
+            <img class="float-right w-50 rounded-circle"  src="/storage/{{$user->profile->Image}}" alt="">
         </div>
         <div class="col-10">
             <div class="d-flex justify-content-between algin-items-baseline">
                 
                 <div>
                 <h6 class="pt-2">{{ $user->username }}</h6>
+
+                @can ('update', $user->profile)
                 <a href="/profile/{{$user->id}}/edit"><small>Edit profile</small></a>
+                @endcan
                 </div>
+                @can ('update', $user->profile)
                 <a href="/p/create">Post Comment</a>
+                @endcan
             </div>
         </div>
     </div>
@@ -40,7 +45,7 @@
     <div class="row">
         @foreach($user->posts as $post)
         <a href="/p/{{$post->id}}">
-            <div class="col-4 pb-4"><img style="height: 400px; width:300px;" src="/storage/{{$post->image}}" alt=""></div>
+            <div class="col-4 pb-4"><img src="/storage/{{$post->image}}" alt=""></div>
         </a>
         @endforeach
     </div>
