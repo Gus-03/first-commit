@@ -1,0 +1,139 @@
+*, html {
+    max-height: 90vh;
+    margin:0;
+    padding:0;
+}
+
+body{
+  height: 100%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+.topnav{
+	position: fixed;
+	overflow: hidden;
+	width: 100vw;
+	height: 63px;
+	background-color: white;
+	font-family: Karla;
+	font-weight: bold;
+	font-size: 20px;
+	z-index:999;
+}
+
+.logo{
+	display: inline-block;
+	vertical-align: top;
+	width: 150px;
+  padding: 2px 20px;
+}
+
+.topnav a.links {
+	display:inline-block;
+	vertical-align: top;
+	padding: 20px 30px;
+	float: right;
+	text-decoration: none;
+	color: black;
+}
+
+#login{
+  background-color: #D4B64F;
+ 	color: white;
+}
+
+.topnav a.links:hover {
+	background-color: #D4B64F;
+ 	color: white;
+}
+
+.headers{
+	padding-top: 63px;
+}
+
+.left-container{
+  position:relative;
+  float:left;
+  width:50%;
+  background-color: #D4B64F;
+  height: 100vh;
+  padding-top: 70px;
+  font-family: Karla;
+}
+
+.logo2{
+  text-align: center;
+  padding-top: 140px;
+  padding-left: 240px;
+  width: 240px;
+}
+
+.group1{
+  text-align:left;
+  padding-left: 170px;
+	font-size: 20px;
+  color: #D4B64F;
+}
+
+.group2{
+  text-align:left;
+  padding-left: 170px;
+	font-size: 20px;
+  color: #D4B64F;
+}
+
+.group3{
+  text-align:left;
+  padding-left: 170px;
+	font-size: 20px;
+  color: #D4B64F;
+}
+
+.form-control{
+  border-radius: 30px;
+  border-color: #D3D3D3;
+  font-family: Karla;
+  padding-left: 10px;
+  width: 340px;
+  height: 25px;
+}
+
+.signin{
+  margin: 30px 280px;
+  background-color: #DFB64F;
+	text-align: center;
+	padding:5px 30px;
+	font-family: Karla;
+	font-size: 30px;
+	font-weight: bold;
+	color:white;
+	border: none;
+	border-radius: 30px;
+}
+
+.right-container{
+  position:relative;
+  float:right;
+  font-family: Karla;
+}
+
+.login-heading{
+  text-align: center;
+  padding-top: 240px;
+  font-family: Karla;
+	font-weight: bold;
+	font-size: 75px;
+  color:white;
+}
+
+.text{
+  text-align: center;
+  font-family: Karla;
+	font-size: 20px;
+  color:white;
+}
+
+.signup{
+  text-decoration: underline;
+  color:white;
+}

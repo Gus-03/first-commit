@@ -1,0 +1,13 @@
+insert into products(sku, description, material_type, price, product_range, clear_size) values (000010, "Rosemary Citrus 4oz Bar Soap", "bar", 6, "Gym BeEnergized", "4oz");
+insert into products(sku, description, material_type, price, product_range, clear_size) values (000016, "Rosemary Citrus Lip Wax (Balm)", "balm", 4, "Gym BeEnergized", "15oz");
+insert into products(sku, description, material_type, price, product_range, clear_size) values (000039, "4oz  Rosemary Citrus Bath Salts", "bottle", 8, "Gym BeEnergized", "4oz");
+insert into products(sku, description, material_type, price, product_range, clear_size) values (000040, "8oz  Rosemary Citrus Bath Salts", "bottle", 12, "Gym BeEnergized", "8oz");
+insert into products(sku, description, material_type, price, product_range, clear_size) values (000043, "4oz Rosemary Citrus Hand Sanitizer Spray", "bottle", 6, "Gym", "4oz");
+insert into products(sku, description, material_type, price, product_range, clear_size) values (000045, "4oz Rosemary Citrus Fitness Mat Cleaner", "bottle", 6, "Gym", "4oz");
+insert into products(sku, description, material_type, price, product_range, clear_size) values (000034, "Ginger & Citrus Lip Balm", "balm", 4, "Yogi BeBalanced BeEnergized", "15oz");
+insert into products(sku, description, material_type, price, product_range, clear_size) values (000018, "Lavender Bergamont 4oz Bar Soap", "bar", 6, "Yogi BeBalanced", "4oz");
+insert into products(sku, description, material_type, price, product_range, clear_size) values (000024, "Lavender Bergamont Lip Wax (Balm)", "balm", 4, "Yogi BeBalanced BeEnergized", "15oz");
+insert into products(sku, description, material_type, price, product_range, clear_size) values (000036, "4oz Lavender Bergamont Bath Salts", "bottle", 8, "Yogi BeBalanced", "4oz");
+insert into products(sku, description, material_type, price, product_range, clear_size) values (000037, "8oz Lavender Bergamont Candle", "bottle", 12, "Yogi", "8oz");
+insert into products(sku, description, material_type, price, product_range, clear_size) values (000042, "4oz Lavender Bergamont Hand Sanitizer Spray", "bottle", 6, "BeBalanced", "4oz");
+insert into products(sku, description, material_type, price, product_range, clear_size) values (000044, "4oz Lavender Bergamont Yoga Mat Cleaner", "bottle", 6, "Yogi Gym", "4oz");
