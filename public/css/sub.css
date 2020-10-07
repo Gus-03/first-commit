@@ -1,0 +1,67 @@
+*, html {
+    margin:0;
+    padding:0;
+}
+
+.topnav{
+	position: fixed;
+	overflow: hidden;
+	width: 100vw;
+	height: 63px;
+	background-color: white;
+	font-family: Karla;
+	font-weight: bold;
+	font-size: 20px;
+	z-index:999;
+}
+
+.logo{
+	display: inline-block;
+	vertical-align: top;
+	width: 150px;
+  padding: 2px 20px;
+}
+
+.topnav a.links {
+	display:inline-block;
+	vertical-align: top;
+	padding: 20px 30px;
+	float: right;
+	text-decoration: none;
+	color: black;
+}
+
+#subscribe{
+  background-color: #D4B64F;
+ 	color: white;
+}
+
+.topnav a.links:hover {
+	background-color: #D4B64F;
+ 	color: white;
+}
+
+.select{
+	padding-top: 100px;
+  text-align: center;
+}
+
+.container{
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.banner{
+  padding-bottom: 5vw;
+  width:80vw;
+}
+
+.container h1{
+  position: absolute;
+  bottom: 50%;
+  text-align: center;
+	font-family: Karla;
+	font-size: 5vw;
+  color:white;
+}

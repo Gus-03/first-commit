@@ -1,0 +1,210 @@
+*, html {
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+}
+
+.topnav{
+	position: fixed;
+	overflow: hidden;
+	width: 100vw;
+	height: 63px;
+	background-color: white;
+	font-family: Karla;
+	font-weight: bold;
+	font-size: 20px;
+	z-index:999;
+}
+
+.logo{
+	display: inline-block;
+	vertical-align: top;
+	width: 150px;
+  padding: 2px 20px;
+}
+
+.topnav a.links {
+	display:inline-block;
+	vertical-align: top;
+	padding: 20px 30px;
+	float: right;
+	text-decoration: none;
+	color: black;
+}
+
+.topnav a.links:hover {
+	background-color: #D4B64F;
+ 	color: white;
+}
+
+.headers{
+	padding-top: 63px;
+}
+
+.header-container{
+	position:relative;
+	background-color: #DFB64F;
+}
+
+.yoga1{
+	width:100vw;
+  display: block;
+	opacity:0.4;
+}
+
+.header-container h1{
+  position: absolute;
+	top: 70%;
+	left: 4%;
+	text-align: center;
+	font-family: Karla;
+	font-size: 5vw;
+	color: white;
+}
+
+.cart{
+  position:relative;
+	background-color: #FAF6EC;
+}
+
+.cart-container{
+  text-align: left;
+  padding-left: 5vw;
+  padding-top: 5vh;
+  padding-bottom:2vh;
+  width:100vw;
+  font-family: Karla;
+  color: #D4B64F;
+}
+
+.cart-container .left-title{
+  width: 40vw;
+  font-size: 3vw;
+  text-align: left;
+  display: inline-block;
+}
+
+.cart-container .right-title{
+  width: 45vw;
+  font-size:3vw;
+  text-align: right;
+  display: inline-block;
+}
+
+.cart-container .product-image{
+  vertical-align: middle;
+  width:20vw;
+}
+
+.cart-container .content{
+  white-space: nowrap;
+  padding-top: 3vh;
+  padding-bottom: 1vh;
+  font-size: 2vw;
+  font-weight: bold;
+}
+
+.cart-container .text{
+  width: 20vw;
+  display: inline-block;
+  white-space: normal;
+  text-align: left;
+  padding-left: 1vw;
+  line-height: 2vw;
+  overflow: hidden;
+}
+
+.cart-container .price{
+  font-size: 2.5vw;
+  width: 43vw;
+  text-align: right;
+  display: inline-block;
+  line-height: 2vw;
+}
+
+.cart-container .smalltext{
+  font-size: 1.5vw;
+  text-align: right;
+  color:#D4B64F;
+}
+
+.cart .title{
+  font-family: Karla;
+  font-size: 3vw;
+  color: #DFB64F;
+}
+
+.choice-container{
+  position: relative;
+  text-align: center;
+  padding-bottom: 5vh;
+  background-color: white;
+}
+
+.choice-container .title{
+  padding-top: 5vh;
+  text-align: center;
+  font-family: Karla;
+  font-size: 3vw;
+  color: #DFB64F;
+}
+
+.choice-container label{
+  font-family: Karla;
+  font-size: 2vw;
+  color: #DFB64F;
+}
+
+.choice-container input{
+  margin-top: 2vw;
+  width: 2vw;
+  color: #DFB64F;
+}
+
+.choice-container input:checked+label{
+  font-weight: bold;
+}
+
+.pricing-container{
+  position: relative;
+  text-align: center;
+  background-color: #FAF6EC;
+  font-family: Karla;
+}
+
+.pricing-container .title{
+  padding-top: 5vh;
+  text-align: center;
+  font-family: Karla;
+  font-size: 3vw;
+  color: #DFB64F;
+}
+
+.pricing-container .total{
+  font-size: 10vw;
+  font-weight: bold;
+  padding-top: 2vh;
+  text-align: center;
+  color: #DFB64F;
+}
+
+.pricing-container #plan-duration{
+  font-size: 3vw;
+  font-weight: bold;
+  color: #DFB64F;
+  text-align: center;
+}
+
+.click-here{
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+  background-color: black;
+  text-align: center;
+  padding:5px 30px;
+  font-family: Karla;
+  font-size: 3vw;
+  font-weight: bold;
+  color:white;
+  border: none;
+  border-radius: 30px;
+}
